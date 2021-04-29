@@ -70,7 +70,7 @@ SSH キーを使用するたびにパスフレーズを再入力したくない�
 
 ### SSH キーを ssh-agent に追加する
 
-キーを管理するために新しい SSH キーを ssh-agent に追加する前に、[既存の SSH キーの確認](/articles/checking-for-existing-ssh-keys)と[新しい SSH キーの生成](/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)を済ませておく必要があります。 <span class="platform-mac">エージェントに SSH キーを追加する際、デフォルトの macOS の `ssh-add` コマンドを使用してください。[macports] macports (https://www.macports.org/)、[homebrew] (http://brew.sh/)、またはその他の外部ソースによってインストールされたアプリケーションは使用しないでください。</span>
+キーを管理するために新しい SSH キーを ssh-agent に追加する前に、[既存の SSH キーの確認](/articles/checking-for-existing-ssh-keys)と[新しい SSH キーの生成](/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)を済ませておく必要があります。 <span class="platform-mac">エージェントに SSH キーを追加する際、デフォルトの macOS の `ssh-add` コマンドを使用してください。[macports](https://www.macports.org/)、[homebrew](http://brew.sh/)、またはその他の外部ソースによってインストールされたアプリケーションは使用しないでください。</span>
 
 {% mac %}
 
